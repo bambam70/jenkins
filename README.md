@@ -14,10 +14,15 @@ sur Windows : elle se fait directement sur le site jenkins.io en choisissant la 
 sur Linux : elle se fait de la manière suivante : 
 
   > wget -q -O -http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+
   > sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+
   > sudo apt-get update
+
   > sudo apt-get install jenkins
 
 NB : la clé d'activation de jenkins se trouve dans le fichier 
+
   > Pour Linux /var/jenkins_home/secrets/initialAdminPassword
+
   > Pour Windows C:\ProgramData\Jenkins\.jenkins\secrets\initialAdminPassword
