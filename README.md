@@ -43,8 +43,8 @@ On peut également se connecter à un serveur github, avec la gestion des créde
 
 Dans la section "security" (configurer la sécurité globale), on a la gestion du contrôle d'accès c'est à dire comment se connecter à jenkins (base de données, LDAP, ...), les autorisations; la gestion des formats de texte pour mieux personnaliser le tableau de bord jenkins; la gestion des ports sur lesquels les agents jenkins font des échanges valable lorsqu'on à plusieurs jenkins qui travaillent ensemble et par defaut on à le port 50000; la gestion des tokens et des ports à utiliser pour le SSH.
 
-Dans jenkins, on la gestion des users et de rôles qui permettent de différencier les groupes d'utilisateurs ainsi que les différentes tâches à réaliser sur ces profils:
+Dans jenkins, on a la gestion des users et de rôles qui permettent de différencier les groupes d'utilisateurs ainsi que les différentes tâches à réaliser sur ces profils:
 
   - il faut créer des utilisateurs selon les besoins de l'entité (exemple: dev, ops)
   
-  - ajouter le rôle "Rôle-baser Authorization strategy" au niveau de la gestion des plugins
+  - ajouter le rôle "Rôle-based Authorization strategy" au niveau de la gestion des plugins
