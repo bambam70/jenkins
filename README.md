@@ -36,6 +36,7 @@ Ensuite, on fait une configuration du système dans laquelle on peut redéfinir 
 
   - sur windows, il s'agit du repertoire C:\ProgramData\Jenkins\.jenkins
   - sur Linux, il s'agit du repertoire /var/jenkins_home
+  - 
 
 On peut configurer dans le même onglet, le nombre de lanceur (exécuteur) de jobs; cela permet à jenkins de paralléliser et de gérer plusieurs jobs à la fois.
 
